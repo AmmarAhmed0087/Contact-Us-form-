@@ -1,0 +1,33 @@
+div{
+        display: flex;
+        justify-content: space 20px;
+        margin-right: 10px; /* Adjust the spacing as needed */
+        margin-bottom: 5px;
+        line-height :10px ;
+     
+}
+
+input[type="text"]
+input[type="email"]
+input[type="message"]{
+    width:100%;
+    border: 1px solid #cccccc;
+
+}
+textarea{ width:100% ;border: 1px solid #cccccc;
+        
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px 30px;
+    border: 1px solid #ccc;
+    padding: 30px;
+  }
+  input[type="submit"]{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width:100%;
+    }
